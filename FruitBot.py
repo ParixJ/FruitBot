@@ -1,7 +1,7 @@
 # import pandas module to parse csv dataset 
 import pandas as pd
 
-# define FuitBot Function
+# define FruitBot Function
 def FruitBot(input):
     # running loop through user's input and compare each word with fruits in dataset to find a match
     for item in input.split():
